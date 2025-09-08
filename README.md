@@ -1,4 +1,5 @@
 🔐 Linux Auditing & System Hardening
+
 📌 Overview
 
 A cybersecurity project focused on auditing and hardening a Linux system by checking firewall status, SSH configurations, file permissions, suspicious processes, and rootkits.
