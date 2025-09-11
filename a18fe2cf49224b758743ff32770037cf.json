@@ -1,0 +1,21 @@
+{
+    "target": "https://youtube.com",
+    "vulnerabilities": [
+        {
+            "type": "CSRF",
+            "form": "<form class=\"yt-header__search yt-header__search--subscription-newsletter\" data-request-options='{\n        \"language_path\": \"/\",\n        \"domain\": \"youtube\",\n        \"site_id\": 4\n      }'>\n<button ari..."
+        },
+        {
+            "type": "CSRF",
+            "form": "<form aria-live=\"polite\" class=\"yt-subscription-modal__form\" data-action=\"https://services.google.com/fb/submissions/youtubenewslettersubscriptionsdev/\" data-method=\"POST\">\n<div class=\"yt-subscription..."
+        },
+        {
+            "type": "CSRF",
+            "form": "<form class=\"lb-header__search-bar-wrapper\" lb-auto-init=\"LBSearchForm\" lb-options=\"{\n                'resultsPage': '/howyoutubeworks/search/'\n              }\" novalidate=\"\" role=\"search\">\n<!-- Searc..."
+        },
+        {
+            "type": "CSRF",
+            "form": "<form class=\"lb-header__search-bar-wrapper\" lb-auto-init=\"LBSearchForm\" lb-options=\"{\n              'resultsPage': '/creators/search/'\n            }\" novalidate=\"\">\n<!-- Search expand/search button --..."
+        }
+    ]
+}
